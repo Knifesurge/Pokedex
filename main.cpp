@@ -3,6 +3,8 @@
 
 using namespace std;
 
+#define NUMPOKES 151
+
 //Flag for while-loop
 bool run = true;
 
@@ -25,6 +27,9 @@ int main()
 	strcpy(bulbasaur.type, "Grass");
 	bulbasaur.poke_id = 1;
 
+	//Array that hold every Pokemon (for list search)
+	Poke Pokemon[] = {};
+
 	//var to hold user input
 	int choice;
 
@@ -35,12 +40,12 @@ int main()
 		{
 			for(int i=0;i<NUMPOKES;i++)
 			{
-				Poke poke = pokemon[i]
-				if(choice == poke.poke_id)
-					printPoke(&poke);
-				else if(choice == -1)
+				Poke poke = pokemon[i];	//Pokemon that is the current Pokemon that the for loop is running over
+				if(choice == poke.poke_id)	//If the ID entered is a valid ID
+					printPoke(&poke);	//Print the Pokemon
+				else if(choice == -1)	//Kill signal
 					run = false;
-				else
+				else	//ID entered is not valid
 					cout << "Pokemon not found, please try again!" < endl;
 			}
 					
