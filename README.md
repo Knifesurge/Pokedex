@@ -8,7 +8,7 @@ of the same type (also coming soon)!
 Since this project is in the very early stages of development, expect the program to have some bugs and errors.
 
 As of September 4, 2016, this project is a work in progress and is not fully runnable yet. Please, sit back, relax, and wait for 
-Knifesurge to finish the application to a decent running program.
+us to finish the application to a decent running program.
 
 Check this page out every so often to see how the project is going!
 
