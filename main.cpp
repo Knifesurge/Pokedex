@@ -1,3 +1,7 @@
+/* main.cpp ~ Main class for Knifesurge's Pokedex Application
+ * Everything is run from this file (acts as a God file)
+ */
+
 #include <iostream>
 #include <iostd>
 #include <cstring>
