@@ -3,7 +3,6 @@
  */
 
 #include <iostream>
-#include <iostd>
 #include <cstring>
 
 using namespace std;
@@ -672,3 +671,4 @@ void printPoke(Poke *poke)
 	cout << "Name: " << poke->name << endl;
 	cout << "Type: " << poke->type << endl;
 	cout << "ID: " << poke->poke_id << endl;
+}
