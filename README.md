@@ -1,7 +1,9 @@
+#Knifesurge's Pokedex
 This is the repository for Knifesurge's Pokedex-like application.
 
 Please note that there is no GUI version at the moment, so this can only be run on the command line.
 
+#Description
 This app makes it easy for players to find their favorite Pokemon by searching for the ID, name(coming soon), and even find multiple 
 of the same type (also coming soon)!
 
