@@ -170,6 +170,106 @@ int main()
 	Poke dragonite;
 	Poke mewtwo;
 	Poke mew; //#151
+	Poke chikorita;
+	Poke bayleef;
+	Poke meganium;
+	Poke cyndaquil;
+	Poke quilava;
+	Poke typhlosion;
+	Poke totodile;
+	Poke croconaw;
+	Poke feraligtr;
+	Poke sentret;
+	Poke furret;
+	Poke hoothoot;
+	Poke noctowl;
+	Poke ledyba;
+	Poke ledian;
+	Poke spinarak;
+	Poke ariados;
+	Poke crobat;
+	Poke chinchou;
+	Poke lanturn;
+	Poke pichu;
+	Poke cleffa;
+	Poke igglybuff;
+	Poke togepi;
+	Poke togetic;
+	Poke natu;
+	Poke xatu;
+	Poke mareep;
+	Poke flaaffy;
+	Poke ampharos;
+	Poke bellossom;
+	Poke marill;
+	Poke azumarill;
+	Poke sudowoodo;
+	Poke politoed;
+	Poke hoppip;
+	Poke skiploom;
+	Poke jumpluff;
+	Poke aipom;
+	Poke sunkern;
+	Poke sunflora;
+	Poke yanma;
+	Poke wooper;
+	Poke quagsire;
+	Poke espeon;
+	Poke umbreon;
+	Poke murkrow;
+	Poke slowking;
+	Poke misdreavus;
+	Poke unknown;
+	Poke wobbuffet;
+	Poke girafarig;
+	Poke pineco;
+	Poke forretress;
+	Poke dunsparce;
+	Poke gligar;
+	Poke steelix;
+	Poke snubbull;
+	Poke granbull;
+	Poke qwilfish;
+	Poke scizor;
+	Poke shuckle;
+	Poke heracross;
+	Poke sneasel;
+	Poke teddiursa;
+	Poke ursaring;
+	Poke slugma;
+	Poke magcargo;
+	Poke swinub;
+	Poke piloswine;
+	Poke corsola;
+	Poke remoraid;
+	Poke octillery;
+	Poke delibird;
+	Poke mantine;
+	Poke skarmory;
+	Poke houndour;
+	Poke houndoom;
+	Poke kingdra;
+	Poke phanpy;
+	Poke donphan;
+	Poke porygon2;
+	Poke stantler;
+	Poke smeargle;
+	Poke tyrogue;
+	Poke hitmontop;
+	Poke smoochum;
+	Poke elekid;
+	Poke magby;
+	Poke miltank;
+	Poke blissey;
+	Poke raikou;
+	Poke entei;
+	Poke suicune;
+	Poke larvitar;
+	Poke pupitar;
+	Poke tyranitar;
+	Poke lugia;
+	Poke ho_oh;
+	Poke celebi; //#251
 
 	//Fill Poke Struct
 	strcpy(bulbasaur.name, "Bulbasaur");
@@ -648,8 +748,7 @@ int main()
 				{
 					run = 0;
 					break;
-				}
-				if(id == poke.poke_id)
+				}else if(id == poke.poke_id)
 				{
 					printPoke(&poke);
 					break;
