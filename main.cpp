@@ -178,7 +178,7 @@ int main()
 	Poke typhlosion;
 	Poke totodile;
 	Poke croconaw;
-	Poke feraligtr;
+	Poke feraligatr;
 	Poke sentret;
 	Poke furret;
 	Poke hoothoot;
@@ -728,12 +728,55 @@ int main()
 	strcpy(chikorita.name, "Chikorita");
 	strcpy(chikorita.type, "Grass");
 	chikorita.poke_id = 152;
+	strcpy(bayleef.name, "Bayleef");
+	strcpy(bayleef.type, "Grass");
+	bayleef.poke_id = 153;
+	strcpy(meganium.name, "Meganium");
+	strcpy(meganium.type, "Grass");
+	meganium.poke_id = 154;
+	strcpy(cyndaquil.name, "Cyndaquil");
+	strcpy(cyndaquil.type, "Fire");
+	cyndaquil.poke_id = 155;
+	strcpy(quilava.name, "Quilava");
+	strcpy(quilava.type, "Fire");
+	quilava.poke_id = 156;
+	strcpy(typhlosion.name, "Typhlosion");
+	strcpy(typhlosion.type, "Fire");
+	typhlosion.poke_id = 157;
+	strcpy(totodile.name, "Totodile");
+	strcpy(totodile.type, "Water");
+	totodile.poke_id = 158;
+	strcpy(croconaw.name, "Croconaw");
+	strcpy(croconaw.type, "Water");
+	croconaw.poke_id = 159;
+	strcpy(feraligatr.name, "Feraligatr");
+	strcpy(feraligatr.type, "Water");
+	feraligatr.poke_id = 160;
+	strcpy(sentret.name, "Sentret");
+	strcpy(sentret.type, "Normal");
+	sentret.poke_id = 161;
+	strcpy(furret.name, "Furret");
+	strcpy(furret.type, "Normal");
+	furret.poke_id = 162;
+	strcpy(hoothoot.name, "Hoothoot");
+	strcpy(hoothoot.type, "Normal/Flying");
+	hoothoot.poke_id = 163;
+	strcpy(noctowl.name, "Noctowl");
+	strcpy(noctowl.type, "Normal/Flying");
+	noctowl.poke_id = 164;
+	strcpy(ledyba.name, "Ledyba");
+	strcpy(ledyba.type, "Bug/Flying");
+	ledyba.poke_id = 165;
+	strcpy(ledian.name, "Ledian");
+	strcpy(ledian.type, "Bug/Flying");
+	ledian.poke_id = 166;
+
 
 	//Declare variable to hold user input
 	int id;
 
 	//Array that holds every Poke, used to search for user input
-	Poke pokemon[] = {bulbasaur,ivysaur,venusaur,charmander,charmeleon,charizard,squirtle,wartortle,blastoise,caterpie,metapod,butterfree,weedle,kakuna,beedrill,pidgey,pidgeotto,pidgeot,rattata,raticate,spearow,fearow,ekans,arbok,pikachu,raichu,sandshrew,sandslash,nidoranF,nidorina,nidoqueen,nidoranM,nidorino,nidoking,clefairy,clefable,vulpix,ninetales,jigglypuff,wigglytuff,zubat,golbat,oddish,gloom,vileplume,paras,parasect,venonat,venomoth,diglett,dugtrio,meowth,persian,psyduck,golduck,mankey,primeape,growlithe,arcanine,poliwag,poliwhirl,poliwrath,abra,kadabra,alakazam,machop,machoke,machamp,bellsprout,weepinbell,victreebel,tentacool,tentacruel,geodude,graveler,golem,ponyta,rapidash,slowpoke,slowbro,magnemite,magneton,farfetchd,doduo,dodrio,seel,dewgong,grimer,muk,shellder,cloyster,gastly,haunter,gengar,onix,drowzee,hypno,krabby,kingler,voltorb,electrode,exeggcute,exeggutor,cubone,marowak,hitmonlee,hitmonchan,lickitung,koffing,weezing,rhyhorn,rhydon,chansey,tangela,kangaskhan,horsea,seadra,goldeen,seaking,staryu,starmie,mr_mime,scyther,jynx,electabuzz,magmar,pinsir,tauros,magikarp,gyarados,lapras,ditto,eevee,vaporean,jolteon,flareon,porygon,omanyte,omastar,kabuto,kabutops,aerodactyl,snorlax,articuno,zapdos,moltres,dratini,dragonair,dragonite,mewtwo,mew,chikorita};
+	Poke pokemon[] = {bulbasaur,ivysaur,venusaur,charmander,charmeleon,charizard,squirtle,wartortle,blastoise,caterpie,metapod,butterfree,weedle,kakuna,beedrill,pidgey,pidgeotto,pidgeot,rattata,raticate,spearow,fearow,ekans,arbok,pikachu,raichu,sandshrew,sandslash,nidoranF,nidorina,nidoqueen,nidoranM,nidorino,nidoking,clefairy,clefable,vulpix,ninetales,jigglypuff,wigglytuff,zubat,golbat,oddish,gloom,vileplume,paras,parasect,venonat,venomoth,diglett,dugtrio,meowth,persian,psyduck,golduck,mankey,primeape,growlithe,arcanine,poliwag,poliwhirl,poliwrath,abra,kadabra,alakazam,machop,machoke,machamp,bellsprout,weepinbell,victreebel,tentacool,tentacruel,geodude,graveler,golem,ponyta,rapidash,slowpoke,slowbro,magnemite,magneton,farfetchd,doduo,dodrio,seel,dewgong,grimer,muk,shellder,cloyster,gastly,haunter,gengar,onix,drowzee,hypno,krabby,kingler,voltorb,electrode,exeggcute,exeggutor,cubone,marowak,hitmonlee,hitmonchan,lickitung,koffing,weezing,rhyhorn,rhydon,chansey,tangela,kangaskhan,horsea,seadra,goldeen,seaking,staryu,starmie,mr_mime,scyther,jynx,electabuzz,magmar,pinsir,tauros,magikarp,gyarados,lapras,ditto,eevee,vaporean,jolteon,flareon,porygon,omanyte,omastar,kabuto,kabutops,aerodactyl,snorlax,articuno,zapdos,moltres,dratini,dragonair,dragonite,mewtwo,mew,chikorita,bayleef,maganium,cyndaquil,quilava,typhlosion,totodile,croconaw,feraligatr,sentret,furret,hoothoot,noctowl,ledyba,ledian};
 
 	//Whether or not to continue looping
 	int run = 1;
