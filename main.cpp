@@ -856,6 +856,49 @@ int main()
 	wooper.poke_id = 194;
 	strcpy(quagsire.name, "Quagsire");
 	strcpy(quagsire.type, "Water/Ground");
+	quagsire.poke_id = 195;
+	strcpy(espeon.name, "Espeon");
+	strcpy(espeon.type, "Psychic");
+	espeon.poke_id = 196;
+	strcpy(umbreon.name, "Umbreon");
+	strcpy(umbreon.type, "Dark");
+	umbreon.poke_id = 197;
+	strcpy(murkrow.name, "Murkrow");
+	strcpy(murkrow.type, "Dark/Flying");
+	murkrow.poke_id = 198;
+	strcpy(slowking.name, "Slowking");
+	strcpy(slowking.type, "Water/Psychic");
+	slowking.poke_id = 199;
+	strcpy(misdreavus.name, "Misdreavus");
+	strcpy(misdreavus.type, "Ghost");
+	misdreavus.poke_id = 200;
+	strcpy(unknown.name, "Unknown");
+	strcpy(unknown.type, "Psychic");
+	unknown.poke_id = 201;
+	strcpy(wobbuffet.name, "Wobbuffet");
+	strcpy(wobbuffet.type, "Psychic");
+	wobbuffet.poke_id = 202;
+	strcpy(girafarig.name, "Girafarig");
+	strcpy(girafarig.type, "Normal/Psychic");
+	girafarig.poke_id = 203;
+	strcpy(pineco.name, "Pineco");
+	strcpy(pineco.type, "Bug");
+	pineco.poke_id = 204;
+	strcpy(forretress.name, "Forretress");
+	strcpy(forretress.type, "Bug/Steel");
+	forretress.poke_id = 205;
+	strcpy(dunsparce.name, "Dunsparce");
+	strcpy(dunsparce.type, "Ground");
+	dunsparce.poke_id = 206;
+	strcpy(gligar.name, "Gligar");
+	strcpy(gligar.type, "Ground/Flying");
+	gligar.poke_id = 207;
+	strcpy(steelix.name, "Steelix");
+	strcpy(steelix.type, "Steel/Ground");
+	steelix.poke_id = 208;
+	strcpy(snubbull.name, "Snubbull");
+	strcpy(snubbull.type, "Normal");
+	snubbull.poke_id = 209;
 
 	//Declare variable to hold user input
 	int id;
@@ -872,7 +915,7 @@ int main()
 		{
 			//valid input
 			//Loop over input to determine what Pokemon to print based on what number the user entered
-			for(int i=0;i<200;i++)
+			for(int i=0;i<253;i++)
 			{
 				Poke poke = pokemon[i];
 				if(id == -1)
